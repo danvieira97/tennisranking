@@ -7,7 +7,7 @@ import { ChallengesModule } from './challenges/challenges.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://daaaands:K5MvuE0JRNYhJuIL@cluster0.mzelhe5.mongodb.net/tennisranking?retryWrites=true&w=majority',
+      'mongodb+srv://<user>:<password>@cluster0.mzelhe5.mongodb.net/tennisranking?retryWrites=true&w=majority',
     ),
     PlayersModule,
     CategoriesModule,
